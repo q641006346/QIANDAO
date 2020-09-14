@@ -14,5 +14,5 @@
 | wordcount                                          | 计算字符串中单词的个数                                       | {{"abc def" \| wordcount}}                  | 2                                |
 | striptags                                          | 删除字符串中所有的html标签，如果出现多个空格，将替换成一个空格 | {{"<a>123</a>    <p>456</p>" \| striptags}} | 123 456                          |
 | replace(s,t)                                       | 将字符串中的 s 替换为 t                                      | {{"123"\|replace("1","a")}}                 | a23                              |
-| `truncate`(length=255, killwords=False, end='...') | killwords=True 时在第 length 处截断，最后补上一个 end        | {{ "abcd"\|truncate(2, True,'q') }}         | aq                               |
+| truncate(length=255, killwords=False, end='...') | killwords=True 时在第 length 处截断，最后补上一个 end        | {{ "abcd"\|truncate(2, True,'q') }}         | aq                               |
 
