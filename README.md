@@ -17,6 +17,18 @@
 
 [stay](https://gitee.com/qypw)
 
+## FAQ
+
+**部分模板订阅后使用网站cookie却提示未登录？**
+
+*并不是模板问题而是网站对UA有验证，UA更换cookie会失效。请自行查看模板所使用的 User-Agent ,并使用所获得的UA去登录获取cookie。( Firefox 可使用 User-Agent Switcher and Manager 来设置特定的UA，其他浏览器同理。)*
+
+**想学习模板制作流程？**
+
+[签到宝典demo](https://www.bilibili.com/video/BV1ox411C7RT)
+
+[模板书写规范](https://github.com/github-h/qiandao-templates/blob/self-bak/README.md)
+
 ## 网站
 
 Tips:
